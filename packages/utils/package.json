@@ -1,6 +1,6 @@
 {
   "name": "@mengwan-cli-dev/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
   "homepage": "",
@@ -18,6 +18,5 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\""
-  },
-  "dependencies": {}
+  }
 }

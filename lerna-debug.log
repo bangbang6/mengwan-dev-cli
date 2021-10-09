@@ -1,0 +1,17 @@
+31 error Error: Command failed with exit code 1: git add -- packages/utils/package.json packages/utils/package-lock.json packages/core/package.json packages/core/package-lock.json lerna.json
+31 error warning: LF will be replaced by CRLF in lerna.json.
+31 error The file will have its original line endings in your working directory
+31 error warning: LF will be replaced by CRLF in packages/core/package.json.
+31 error The file will have its original line endings in your working directory
+31 error warning: LF will be replaced by CRLF in packages/utils/package.json.
+31 error The file will have its original line endings in your working directory
+31 error The following paths are ignored by one of your .gitignore files:
+31 error packages/core/package-lock.json
+31 error packages/utils/package-lock.json
+31 error hint: Use -f if you really want to add them.
+31 error hint: Turn this message off by running
+31 error hint: "git config advice.addIgnoredFile false"
+31 error     at makeError (D:\project\mengwan-cli-dev\node_modules\_execa@5.1.1@execa\lib\error.js:60:11)
+31 error     at handlePromise (D:\project\mengwan-cli-dev\node_modules\_execa@5.1.1@execa\index.js:118:26)
+31 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+31 error     at async Promise.all (index 0)
