@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "bin": {
+    "mengwan-cli-dev": "bin/index.js"
+  },
   "files": [
     "lib"
   ],
@@ -22,5 +25,6 @@
   "dependencies": {
     "@mengwan-cli-dev/utils": "^1.0.2",
     "mengwan-test": "^1.0.3"
-  }
+  },
+  "gitHead": "3ddb06a12366ad0f66e4c181785ff0473050d1c3"
 }
