@@ -1,6 +1,6 @@
 {
   "name": "@mengwan-cli-dev/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
   "homepage": "",
@@ -14,13 +14,10 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\""
   },
-  "gitHead": "a108f342163d5bd75e05f4ea1b1db3cfa065441d",
-  "publishConfig": {
-    "access": "public"
-  }
+  "gitHead": "a108f342163d5bd75e05f4ea1b1db3cfa065441d"
 }
