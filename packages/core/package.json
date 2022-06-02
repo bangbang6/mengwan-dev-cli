@@ -23,7 +23,7 @@
     "test": "echo \"Error: run tests from root\" "
   },
   "dependencies": {
-    "@mengwan-cli-dev/utils": "^1.0.4",
+    "@mengwan-cli-dev/utils": "file:../utils",
     "mengwan-test": "^1.0.3"
   },
   "gitHead": "a108f342163d5bd75e05f4ea1b1db3cfa065441d"
