@@ -1,5 +1,5 @@
 {
-  "name": "get-npm-info",
+  "name": "@mengwan-cli-dev/get-npm-info",
   "version": "1.0.8",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
@@ -28,5 +28,5 @@
     "semver": "^7.3.7",
     "url-join": "^5.0.0"
   },
-  "gitHead": "24cdb6590c83e600893f851a7be2d6555f37ccf8"
+  "gitHead": "87bae74eb8f930e3b4ead915834135e48138d8cc"
 }
