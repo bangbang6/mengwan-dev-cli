@@ -19,5 +19,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\""
   },
-  "gitHead": "a108f342163d5bd75e05f4ea1b1db3cfa065441d"
+  "gitHead": "a108f342163d5bd75e05f4ea1b1db3cfa065441d",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }

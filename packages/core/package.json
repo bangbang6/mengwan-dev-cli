@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "@mengwan-cli-dev/utils": "file:../utils",
-    "mengwan-test": "^1.0.3"
+    "mengwan-test": "^1.0.3",
+    "yargs": "^17.5.1"
   },
   "gitHead": "a108f342163d5bd75e05f4ea1b1db3cfa065441d"
 }
