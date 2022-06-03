@@ -1,6 +1,6 @@
 {
   "name": "@mengwan-cli-dev/cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
   "homepage": "",
@@ -23,8 +23,8 @@
     "test": "echo \"Error: run tests from root\" "
   },
   "dependencies": {
-    "@mengwan-cli-dev/log": "file:../../utils/log",
     "@mengwan-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@mengwan-cli-dev/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
     "mengwan-test": "^1.0.3",
