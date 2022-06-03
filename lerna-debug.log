@@ -1,17 +1,16 @@
-31 error Error: Command failed with exit code 1: git add -- packages/utils/package.json packages/utils/package-lock.json packages/core/package.json packages/core/package-lock.json lerna.json
-31 error warning: LF will be replaced by CRLF in lerna.json.
-31 error The file will have its original line endings in your working directory
-31 error warning: LF will be replaced by CRLF in packages/core/package.json.
-31 error The file will have its original line endings in your working directory
-31 error warning: LF will be replaced by CRLF in packages/utils/package.json.
-31 error The file will have its original line endings in your working directory
-31 error The following paths are ignored by one of your .gitignore files:
-31 error packages/core/package-lock.json
-31 error packages/utils/package-lock.json
-31 error hint: Use -f if you really want to add them.
-31 error hint: Turn this message off by running
-31 error hint: "git config advice.addIgnoredFile false"
-31 error     at makeError (D:\project\mengwan-cli-dev\node_modules\_execa@5.1.1@execa\lib\error.js:60:11)
-31 error     at handlePromise (D:\project\mengwan-cli-dev\node_modules\_execa@5.1.1@execa\index.js:118:26)
-31 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-31 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ 'core/cli/' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'D:\\mysoftware\\node_global\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'semver'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath D:\project\mengwan-cli-dev
+3 error FetchError: request to https://registry.npmjs.org/semver failed, reason: connect ETIMEDOUT 104.16.17.35:443
+3 error     at ClientRequest.<anonymous> (D:\mysoftware\node_global\node_modules\lerna\node_modules\_minipass-fetch@1.4.1@minipass-fetch\lib\index.js:110:14)
+3 error     at ClientRequest.emit (node:events:390:28)
+3 error     at TLSSocket.socketErrorListener (node:_http_client:447:9)
+3 error     at TLSSocket.emit (node:events:402:35)
+3 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+3 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
