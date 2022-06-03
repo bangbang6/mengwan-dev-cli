@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -28,5 +31,5 @@
     "semver": "^7.3.7",
     "url-join": "^5.0.0"
   },
-  "gitHead": "87bae74eb8f930e3b4ead915834135e48138d8cc"
+  "gitHead": "7362edd69946ef463fcfd2a507400ad762c96b8e"
 }

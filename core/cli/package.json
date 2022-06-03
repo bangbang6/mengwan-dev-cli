@@ -23,7 +23,7 @@
     "test": "echo \"Error: run tests from root\" "
   },
   "dependencies": {
-    "@mengwan-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@mengwan-cli-dev/get-npm-info": "^1.0.9",
     "@mengwan-cli-dev/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
@@ -36,5 +36,5 @@
     "user-home": "^3.0.0",
     "yargs": "^17.5.1"
   },
-  "gitHead": "87bae74eb8f930e3b4ead915834135e48138d8cc"
+  "gitHead": "7362edd69946ef463fcfd2a507400ad762c96b8e"
 }
