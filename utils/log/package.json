@@ -1,5 +1,5 @@
 {
-  "name": "@mengwan-dev-cli/log",
+  "name": "@mengwan-cli-dev/log",
   "version": "1.0.10",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
@@ -29,5 +29,5 @@
   "dependencies": {
     "npmlog": "^6.0.2"
   },
-  "gitHead": "7362edd69946ef463fcfd2a507400ad762c96b8e"
+  "gitHead": "02060be9a526ba439208f80a60b1a926c492ebca"
 }
