@@ -97,9 +97,13 @@ function createDefaultHome(config){
     return cliConfig
 }
 //检测开发的模块是否需要更新 即开发的版本  线上的版本比本地的高
-function checkGrobalUpdate(){
+async function checkGrobalUpdate(){
     const curVer = pkg.version
     const npmName = pkg.name
-    getNmpInfo(npmName)
+    const newV = await getNmpInfo(npmName,curVer)
+    console.log('newV',newV);
+    if(newV && semver.gt(newV,curVer)){
+        log.warn(colors.yellow(`请手动更新 ${npmName}包`))
+    }
 }
 module.exports = core

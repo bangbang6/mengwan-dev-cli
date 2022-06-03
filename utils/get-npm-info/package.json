@@ -27,5 +27,6 @@
     "axios": "^0.27.2",
     "semver": "^7.3.7",
     "url-join": "^5.0.0"
-  }
+  },
+  "gitHead": "24cdb6590c83e600893f851a7be2d6555f37ccf8"
 }
