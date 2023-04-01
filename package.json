@@ -1,0 +1,28 @@
+{
+  "name": "mengwan-dev-cli",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mengwan-dev-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mengwan-dev-cli-bin": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bangbang6/mengwan-dev-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
+  },
+  "homepage": "https://github.com/bangbang6/mengwan-dev-cli#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
