@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "mengwan-dev-cli": "bin/index.js"
+    "mengwan-dev-cli": "bin/index2.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

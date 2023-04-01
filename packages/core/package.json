@@ -24,7 +24,8 @@
     "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
   },
   "dependencies": {
+    "@mengwan-dev-cli/utils": "^1.0.0",
     "mengwan-test": "^1.0.3",
-    "@mengwan-dev-cli/utils": "^1.0.0"
+    "yargs": "^17.7.1"
   }
 }

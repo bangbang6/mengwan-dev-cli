@@ -1,10 +1,10 @@
-'use strict';
+'use strict'
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/yargs')
 
-module.exports = core;
+console.log('2', 2)
 
-const a = require('@mengwan-dev-cli/utils')
-function core() {
-    // TODO
-    a()
-}
-core()
+/** 解析命令 */
+const arg = hideBin(process.argv)
+console.log('arg', arg)
+yargs(arg).argv

@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
+  },
+  "dependencies": {
+    "yargs": "^17.7.1"
   }
 }
