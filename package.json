@@ -1,16 +1,15 @@
 {
   "name": "mengwan-dev-cli",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
-  "main": "index.js",
-  "bin": {
-    "mengwan-dev-cli": "bin/index2.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "mengwan-dev-cli-bin": "^1.0.0"
+  },
+  "bin": {
+    "mengwan-dev-cli": "lib/index.js"
   },
   "repository": {
     "type": "git",
