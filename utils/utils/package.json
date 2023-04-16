@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bangbang6/mengwan-dev-cli.git"
@@ -26,5 +29,5 @@
   "dependencies": {
     "yargs": "^17.7.1"
   },
-  "gitHead": "e62b04abd09689adf9c00c6474b3a8a4e7d15635"
+  "gitHead": "076f1bce2342fff6e5082977b603c396dd97ddb6"
 }

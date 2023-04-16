@@ -32,5 +32,8 @@
     "npmlog": "^7.0.1",
     "yargs": "^17.7.1"
   },
-  "gitHead": "e62b04abd09689adf9c00c6474b3a8a4e7d15635"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "076f1bce2342fff6e5082977b603c396dd97ddb6"
 }
