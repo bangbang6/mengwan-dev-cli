@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 
-const utils = require('@mengwan-dev-cli/utils')
+// 本地安装 非全局link安装
+const importLocal = require('import-local')
 
-console.log(13)
-utils()
+if(importLocal(__filename)){
+  require('npmlog').info('cli','正在使用mw-cli本地版本')
+}else{
+  require('../bin')(process.argv.slice(2))
+}
