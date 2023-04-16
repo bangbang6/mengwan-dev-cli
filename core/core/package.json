@@ -14,7 +14,8 @@
     "mw-cli": "lib/core.js"
   },
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "repository": {
     "type": "git",
