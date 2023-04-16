@@ -1,6 +1,6 @@
 {
   "name": "@mengwan-dev-cli/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
   "homepage": "https://github.com/bangbang6/mengwan-dev-cli/tree/main/packages/utils#readme",
@@ -26,5 +26,5 @@
   "dependencies": {
     "yargs": "^17.7.1"
   },
-  "gitHead": "b895d32f9c22db9805cc5f0ff0ac5ca99cf18658"
+  "gitHead": "e62b04abd09689adf9c00c6474b3a8a4e7d15635"
 }
