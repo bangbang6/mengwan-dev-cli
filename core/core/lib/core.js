@@ -4,7 +4,7 @@
 const importLocal = require('import-local')
 
 if(importLocal(__filename)){
-  require('npmlog').info('cli','正在使用mw-cli本地版本q')
+  require('npmlog').info('cli','正在使用mw-cli本地版本1')
 }else{
   require('../bin')(process.argv.slice(2))
 }
