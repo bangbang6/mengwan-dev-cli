@@ -1,6 +1,6 @@
 {
   "name": "@mengwan-dev-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
   "homepage": "https://github.com/bangbang6/mengwan-dev-cli/tree/main/packages/core#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
   },
   "dependencies": {
-    "@mengwan-dev-cli/utils": "^1.0.1",
+    "@mengwan-dev-cli/utils": "^1.0.2",
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1",
     "yargs": "^17.7.1"
