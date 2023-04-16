@@ -1,17 +1,11 @@
 0 silly argv {
-0 silly argv   _: [ 'link' ],
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
 0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'D:\\mysoftware\\node_global\\node_modules\\lerna\\cli.js'
+0 silly argv   '$0': 'D:\\mysoftware\\node_global\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: '@mengwan-dev-cli/log'
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath D:\project\mengwan-dev-cli
-3 error Error: Invalid package name "@mengwan-dev-cli": name can only contain URL-friendly characters
-3 error     at invalidPackageName (D:\mysoftware\node_global\node_modules\lerna\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:84:15)
-3 error     at Result.setName (D:\mysoftware\node_global\node_modules\lerna\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:119:11)
-3 error     at new Result (D:\mysoftware\node_global\node_modules\lerna\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:110:10)
-3 error     at Function.resolve (D:\mysoftware\node_global\node_modules\lerna\node_modules\_npm-package-arg@8.1.5@npm-package-arg\npa.js:54:15)
-3 error     at D:\mysoftware\node_global\node_modules\lerna\node_modules\_@lerna_package-graph@4.0.0@@lerna\package-graph\index.js:66:30
-3 error     at Array.forEach (<anonymous>)
-3 error     at D:\mysoftware\node_global\node_modules\lerna\node_modules\_@lerna_package-graph@4.0.0@@lerna\package-graph\index.js:60:38
-3 error     at Map.forEach (<anonymous>)
-3 error     at new PackageGraph (D:\mysoftware\node_global\node_modules\lerna\node_modules\_@lerna_package-graph@4.0.0@@lerna\package-graph\index.js:49:10)
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@mengwan-dev-cli%2flog - Not found
+3 error     at D:\project\mengwan-dev-cli\node_modules\pacote\node_modules\npm-registry-fetch\check-response.js:95:15

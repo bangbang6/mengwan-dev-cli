@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bangbang6/mengwan-dev-cli#readme",
   "devDependencies": {
-    "@mengwan-dev-cli/core": "^1.0.5",
+    "@mengwan-dev-cli/core": "^1.0.6",
     "lerna": "^4.0.0"
   }
 }

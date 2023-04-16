@@ -3,8 +3,10 @@
 // 本地安装 非全局link安装
 const importLocal = require('import-local')
 
+
 if(importLocal(__filename)){
-  require('npmlog').info('cli','正在使用mw-cli本地版本1324fwqes')
+
+require('npmlog').info('cli','正在使用mw-cli本地版本1324fwqes')
 }else{
   require('../bin')(process.argv.slice(2))
 }
