@@ -27,9 +27,10 @@
     "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
   },
   "dependencies": {
-    "@mengwan-dev-cli/utils": "file:../../utils/utils",
+    "@mengwan-dev-cli/utils": "^1.0.1",
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1",
     "yargs": "^17.7.1"
-  }
+  },
+  "gitHead": "3b69432d5f6f91121b3e3588a33cb4a4174ca820"
 }
