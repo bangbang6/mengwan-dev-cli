@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
+  },
+  "dependencies": {
+    "@mengwan-dev-cli/utils": "^1.0.0",
+    "pkg-dir": "^5.0.0"
   }
 }

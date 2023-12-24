@@ -36,10 +36,11 @@ function registerCommand() {
     .command('init <projectName>')
     .option('-f --force', '是否强制初始化项目')
     .option('-tp --targetPath <targetPath>', '是否指定调试路径')
-    .action((projectName, optionsObj) => {
-      const targetPath = optionsObj.targetPath
+    .action((...arguments) => {
+      const targetPath = arguments[arguments.length - 2].targetPath
+      console.log('targetPath', targetPath)
       process.env.TARGET_PATH = targetPath
-      exec(projectName, optionsObj)
+      exec(program.args[0], ...arguments)
     })
 
   //! 监听输入了-d

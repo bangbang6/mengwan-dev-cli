@@ -3,9 +3,17 @@ const Package = require('@mengwan-dev-cli/package')
 
 module.exports = exec
 
+const SETTINGS = {
+  init: '@mengwan-dev-cli/init',
+}
+
 /** 动态创建init命令 */
 function exec() {
-  console.log('process.env.CLI_', process.env.CLI_HOME_PATH)
-  console.log('process.env.TARGET_PATH', process.env.TARGET_PATH)
-  const pkg = new Package()
+  const name = arguments[0]
+  const pkg = new Package({
+    targetPath: process.env.TARGET_PATH,
+    name: SETTINGS[name],
+    version: 'latest',
+  })
+  console.log('pkg', pkg)
 }
