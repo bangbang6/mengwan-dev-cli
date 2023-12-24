@@ -1,11 +1,9 @@
 0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [],
+0 silly argv   _: [ 'create' ],
 0 silly argv   lernaVersion: '4.0.0',
 0 silly argv   '$0': 'D:\\mysoftware\\node_global\\node_modules\\lerna\\cli.js',
-0 silly argv   pkg: '@mengwan-dev-cli/log'
+0 silly argv   name: '@mengwan-dev-cli/test'
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath D:\project\mengwan-dev-cli
-3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@mengwan-dev-cli%2flog - Not found
-3 error     at D:\project\mengwan-dev-cli\node_modules\pacote\node_modules\npm-registry-fetch\check-response.js:95:15
+3 error

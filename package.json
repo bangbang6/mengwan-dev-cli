@@ -6,10 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "commander": "^11.0.0",
     "mengwan-dev-cli-bin": "^1.0.0"
-  },
-  "bin": {
-    "mengwan-dev-cli": "lib/index.js"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "name": "@mengwan-dev-cli/core",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "> TODO: description",
   "author": "bangbang6 <577174667@qq.com>",
   "homepage": "https://github.com/bangbang6/mengwan-dev-cli/tree/main/packages/core#readme",
@@ -11,7 +11,7 @@
   },
   "main": "",
   "bin": {
-    "mw-cli": "lib/core.js"
+    "mw-cli": "./lib/core.js"
   },
   "files": [
     "lib",
@@ -22,17 +22,16 @@
     "url": "git+https://github.com/bangbang6/mengwan-dev-cli.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack -w"
   },
   "bugs": {
     "url": "https://github.com/bangbang6/mengwan-dev-cli/issues"
   },
   "dependencies": {
-    "@mengwan-dev-cli/get-npm-info": "^1.0.5",
-    "@mengwan-dev-cli/log": "^1.0.5",
-    "@mengwan-dev-cli/utils": "^1.0.5",
     "colors": "^1.4.0",
-    "commander": "^6.2.1",
+    "commander": "6.2.1",
     "dotenv": "^16.0.3",
     "import-local": "^3.1.0",
     "minimist": "^1.2.8",
@@ -41,10 +40,25 @@
     "root-check": "^1.0.0",
     "semver": "^7.4.0",
     "user-home": "^3.0.0",
-    "yargs": "^17.7.1"
+    "yargs": "^17.7.1",
+    "@mengwan-dev-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@mengwan-dev-cli/log": "file:../../utils/log",
+    "@mengwan-dev-cli/init": "^1.0.0",
+    "@mengwan-dev-cli/test": "^1.0.0",
+    "@mengwan-dev-cli/exec": "^1.0.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "076f1bce2342fff6e5082977b603c396dd97ddb6"
+  "gitHead": "076f1bce2342fff6e5082977b603c396dd97ddb6",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/runtime-corejs3": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "commander": "^11.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
